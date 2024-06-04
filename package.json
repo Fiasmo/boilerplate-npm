@@ -1,19 +1,23 @@
 {
-	"name": "fcc-learn-npm-package-json",
-	"version": "^1.2.0",
-	"author": "Marcel Mr",
-	"description": "A project that does something awesome",
-	"keywords": ["freecodecamp", "related", "shit"],
-	"license": "MIT",
-	"dependencies": {
-		"@freecodecamp/example": "1.1.0"
-	},
-	"main": "server.js",
-	"scripts": {
-		"start": "node server.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
-	}
+  "name": "fcc-learn-npm-package-json",
+  "version": "1.2.0",
+  "author": "Marcel Mr",
+  "description": "A project that does something awesome",
+  "keywords": [
+    "freecodecamp",
+    "related",
+    "shit"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+  }
 }
